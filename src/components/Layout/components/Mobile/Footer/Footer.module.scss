@@ -1,0 +1,23 @@
+.wrapper {
+    padding-top: 100px;
+    width: 100%;
+    height: max-content;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.text-one {
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 30px;
+}
+.text-one > p {
+    margin-top: -10px;
+}
+.text-two {
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 12px;
+    padding-bottom: 30px;
+}

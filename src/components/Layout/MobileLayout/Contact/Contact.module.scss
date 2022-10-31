@@ -1,0 +1,42 @@
+.wrapper {
+    margin-top: 150px;
+    text-align: center;
+    padding: 0 40px;
+    color: #ffffff;
+}
+.wrapper ::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+.contact {
+    font-weight: 600;
+    font-size: 34.5808px;
+    line-height: 42px;
+}
+.text-1,
+.text-2 {
+    font-weight: 300;
+    font-size: 21.6264px;
+    line-height: 26px;
+}
+.text-2 {
+    margin-top: -18px;
+}
+.list-contacts {
+    list-style-type: none;
+    width: 300px;
+    padding-inline-start: 0px;
+}
+.list-contacts li {
+    text-align: center;
+    width: 100px;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    color: #c6c6c6;
+}
+.list-contacts li:nth-child(3) {
+    margin-bottom: 9px;
+}

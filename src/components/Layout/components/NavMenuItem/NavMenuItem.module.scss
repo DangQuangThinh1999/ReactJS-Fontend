@@ -1,0 +1,28 @@
+.wrapper {
+    width: var(--default-layout-content-mb);
+    padding-top: -20px;
+}
+.list-menuNav {
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+.list-menuNav li {
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    list-style-type: none;
+    width: 100%;
+    padding: 24px 45px;
+    text-align: right;
+
+    &:hover {
+        background-color: #2c2c2c;
+    }
+}
+.list-menuNav li a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}

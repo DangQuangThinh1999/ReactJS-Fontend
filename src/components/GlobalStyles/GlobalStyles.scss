@@ -1,0 +1,30 @@
+@import 'normalize.css';
+
+:root {
+    // Desktop Layouts
+
+    --default-layout-header-height: 60px;
+    --default-layout-content: 1512px;
+    --default-layout-half: calc(var(--default-layout-content) / 2);
+    --default-layout-quarter: calc(var(--default-layout-content) / 4);
+    // Mobile Layouts
+    --default-layout-header-height-mb: 15px;
+    --default-layout-content-mb: 375px;
+    --default-layout-half-mb: calc(var(--default-layout-content-mb) / 2);
+    --default-layout-quarter-mb: calc(var(--default-layout-content-mb) / 4);
+}
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}

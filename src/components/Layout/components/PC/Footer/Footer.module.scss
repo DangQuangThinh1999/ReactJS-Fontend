@@ -1,0 +1,24 @@
+.wrapper {
+    width: var(--default-layout-content);
+    height: 64px;
+    border: 1px solid #c2c2c2;
+    padding: 0px 80px;
+    max-width: var(--default-layout-content);
+}
+.wrapper p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.left-text {
+    float: left;
+}
+
+.right-text {
+    float: right;
+}
+.right-text p {
+    display: inline-block;
+    margin-left: 50px;
+}

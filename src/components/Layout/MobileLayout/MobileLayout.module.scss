@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: var(--default-layout-content-mb);
+    background-color: black;
+    min-height: 667px;
+    height: 667px;
+}
+.container {
+    width: var(--default-layout-content-mb);
+    background-color: #000000;
+}
+.content {
+    width: var(--default-layout-content-mb);
+}

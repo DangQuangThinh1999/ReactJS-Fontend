@@ -1,0 +1,81 @@
+.wrapper {
+    padding: 300px 180px 200px 180px;
+    ::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.services {
+    text-align: center;
+    margin-bottom: 130px;
+    font-weight: 600;
+    font-size: 80.9309px;
+    line-height: 98px;
+    color: #ffffff;
+}
+.list-services li {
+    list-style-type: none;
+    width: 500px;
+
+    background-color: #ffffff;
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+.list-services li div {
+    padding: 58px 100px 40px 44px;
+    text-align: left;
+    color: #000000;
+    height: 460px;
+}
+.list-services .title {
+    font-weight: 600;
+    font-size: 36.0176px;
+}
+
+.list-services .content {
+    font-weight: 400;
+    font-size: 20px;
+}
+.list-services .see {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    position: relative;
+}
+.list-services .see ::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.link-services {
+    margin-right: 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.icon-detail {
+    position: absolute;
+    display: inline-block;
+    top: -60px;
+    height: 60px;
+    left: 67px;
+    font-size: 30px;
+}
+.list-services .cost {
+    background-color: #00cf2e;
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    width: 100%;
+    padding: 20px 44px;
+    margin: 0 0;
+}
+.list-services .link-services {
+    &:hover {
+        opacity: 0.5;
+    }
+}

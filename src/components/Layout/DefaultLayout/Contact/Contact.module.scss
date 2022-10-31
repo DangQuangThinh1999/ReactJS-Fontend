@@ -1,0 +1,35 @@
+.wrapper {
+    text-align: center;
+    padding: 250px 180px;
+    color: #ffffff;
+}
+.wrapper ::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.contact {
+    font-weight: 600;
+    font-size: 80.9309px;
+    line-height: 98px;
+}
+.text-1,
+.text-2 {
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 61px;
+}
+.text-2 {
+    margin-top: -40px;
+}
+.list-contacts {
+    list-style-type: none;
+}
+.list-contacts li {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #c6c6c6;
+    margin-right: 70px;
+}

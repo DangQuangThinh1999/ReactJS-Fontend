@@ -1,0 +1,141 @@
+.wrapper {
+    margin-top: 120px;
+    background-color: #000000;
+    padding: 0px 0px;
+    height: max-content;
+
+    ::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.work-note {
+    font-weight: bold;
+
+    font-size: 34.5808px;
+    line-height: 42px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+
+.list-work {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.list-work li {
+    position: relative;
+    height: max-content;
+    list-style-type: none;
+    display: block;
+
+    margin-top: -7.1px;
+}
+.list-work li:nth-child(1),
+.list-work li:nth-child(2) {
+    &::after {
+        margin-top: 10px;
+        margin-left: 140px;
+        border-top: #ffffff solid 5px;
+        width: 80px;
+        content: '123';
+        display: block;
+        clear: both;
+    }
+}
+
+.list-work img {
+    width: var(--default-layout-content-mb);
+    height: var(--default-layout-content-mb);
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
+
+.list-work li:nth-child(2n + 1) > div {
+    position: absolute;
+    width: 220px;
+    padding: 10px 35px 0px 30px;
+    height: max-content;
+    background-color: #ffffff;
+    bottom: 46px;
+    left: 0;
+    opacity: 1 !important;
+}
+.list-work li:nth-child(2n) > div {
+    position: absolute;
+    width: 235px;
+    padding: 10px 35px 0px 30px;
+    height: max-content;
+    background-color: #ffffff;
+    bottom: 46px;
+    right: 0;
+    opacity: 1 !important;
+}
+.list-work li:nth-child(3) > div {
+    position: absolute;
+    width: 235px;
+    padding: 10px 35px 0px 30px;
+    height: max-content;
+    background-color: #ffffff;
+    bottom: 0px;
+    right: 0;
+    opacity: 1 !important;
+}
+
+.list-work li > div .title-work {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+}
+.list-work li > div .content-work {
+    margin-top: -8px;
+    font-weight: 300;
+    font-size: 6px;
+    line-height: 7px;
+}
+.list-work li > div .see-work {
+    margin-top: -10px;
+    height: max-content;
+}
+.list-work .see-work .link-see {
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    &:hover {
+        opacity: 0.5;
+    }
+}
+.list-work .see-work .icon-detail-work {
+    position: absolute;
+    display: inline-block;
+    bottom: 14.5px;
+    left: 110px;
+    font-size: 15px;
+}
+.see-all-work {
+    margin-top: 47px;
+    margin-left: 125px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 11px 30px;
+    transition: all 0.2;
+    &:hover {
+        background-color: #c2c2c2;
+        color: black;
+    }
+}
